@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    border: 5px solid purple;
+  }
+  .logo {
+    height: 8em;
+  }
+  .content {
+    display: flex;
+  }
+  .fishList {
+    border: 5px solid forestgreen;
+    
+  }
+  .quotes {
+    border: 5px solid goldenrod;
+  }
+  .locations {
+    border: 5px solid lightcoral;
+  }
+  .tankTips {
+    border: 5px solid dodgerblue;
+  }
+
+  .container--left {
+    flex: 3;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .container--right {
+    flex: 1
+  }
+
+  .location__image {
+    height: 8em;
+  }
+  .container--left article {
+    margin-bottom: 25px;
+  }
+
+  .Gillbert {
+    border: 3px dotted forestgreen;
+  }
+
+  .funnyMan {
+    border: 3px dotted forestgreen;
+  }
+
+  .locationGBR {
+    border: 3px dotted lightcoral;
+  }
+
+  .locationAR {
+    border: 3px dotted lightcoral;
+  }
+
+  .tip1 {
+    border: 3px dotted dodgerblue;
+    padding-bottom: 10px;
+  }
+
+  .tip2 {
+    border: 3px dotted dodgerblue;
+    padding-bottom: 10px;
+  }
+  .tip3 {
+    border: 3px dotted dodgerblue;
+    padding-bottom: 10px;
+  }
+
+  .tip4 {
+    border: 3px dotted dodgerblue;
+    padding-bottom: 10px;
+  }
+
+  .tip5 {
+    border: 3px dotted dodgerblue;
+    padding-bottom: 10px;
+  }
+
+  .tip6 {
+    border: 3px dotted dodgerblue;
+    padding-bottom: 10px;
+  }
