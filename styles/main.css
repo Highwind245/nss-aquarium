@@ -8,7 +8,7 @@ header {
   .content {
     display: flex;
   }
-  .fishList {
+  #outputContainer {
     border: 5px solid forestgreen;
     
   }

@@ -6,6 +6,7 @@
   <title>Martin's Aquarium</title>
   <link rel="stylesheet" href="./styles/main.css">
 </head>
+<script type="module" src="scripts/main.js"></script>
 <body>
   <header>
     <div><img class="logo" src="./images/Fish.png" alt="logo"></div>
@@ -13,24 +14,9 @@
   </header>
   <main class="content">
     <div class="container container--left">
-      <article class="fishList">
-        <section class="Gillbert">
-          <div><img class="Gillbert__image" src="./images/Gillbert.png" alt="Idk what a clownfish is."></div>
-          <div class="Gillbert__name">Name: Gillbert (Get it? Lol)</div>
-          <div class="Gillbert__species">Species: Piranha Fish</div>
-          <div class="Gillbert__length">Length: 9.8 Inches</div>
-          <div class="Gillbert__location">Aquired from: Amazon River</div>
-          <div class="Gillbert__diet">Diet: insects, fish, crustaceans, worms, carrion, seeds and other plant material.</div>
-        </section>
-        <section class="funnyMan">
-          <div class="funnyMan__image"><img src="./images/Funnyman.jpg" alt="He is so smug!"></div>
-          <div class="funnyMan__name">Name: Funny Man</div>
-          <div class="funnyMan__species">Species: Clownfish</div>
-          <div class="funnyMan__length">Length: 4.3 Inches</div>
-          <div class="funnyMan__location">Aquired from: Pacific Ocean</div>
-          <div class="funnyMan__diet">Diet: Algae, zooplankton, worms and small crustaceans</div>
-        </section>
-      </article>
+      <div id="outputContainer">
+        
+      </div>
       <article class="quotes">
         <section class="quote">
           <div class="quote__text">"Don't start your grill before your catch."</div>
